@@ -1,0 +1,792 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7251672243751344294
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5300788385782760372}
+  - component: {fileID: 6217305353195848637}
+  m_Layer: 0
+  m_Name: Cards
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5300788385782760372
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7251672243751344294}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6217305353195848637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7251672243751344294}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d0c51bb0b6e93049af5e88f93826e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 2100000, guid: dd140a1abec1d3746802d3f242856fba, type: 2}
+  mSprites:
+  - name: BackColor_Black
+    x: 0
+    y: 695
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: BackColor_Blue
+    x: 1570
+    y: 2639
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: BackColor_Red
+    x: 3768
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club01
+    x: 0
+    y: 2639
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club02
+    x: 1570
+    y: 2153
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club03
+    x: 628
+    y: 209
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club04
+    x: 314
+    y: 209
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club05
+    x: 0
+    y: 3125
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club06
+    x: 0
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club07
+    x: 3454
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club08
+    x: 1570
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club09
+    x: 1256
+    y: 209
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club10
+    x: 1570
+    y: 209
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club11
+    x: 0
+    y: 1667
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club12
+    x: 314
+    y: 695
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Club13
+    x: 1884
+    y: 3125
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond01
+    x: 2826
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond02
+    x: 628
+    y: 695
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond03
+    x: 314
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond04
+    x: 1256
+    y: 695
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond05
+    x: 1256
+    y: 3125
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond06
+    x: 1570
+    y: 3125
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond07
+    x: 1884
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond08
+    x: 1256
+    y: 2639
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond09
+    x: 942
+    y: 1667
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond10
+    x: 628
+    y: 1667
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond11
+    x: 2512
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond12
+    x: 1570
+    y: 1181
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Diamond13
+    x: 942
+    y: 3125
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart01
+    x: 314
+    y: 2639
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart02
+    x: 942
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart03
+    x: 314
+    y: 2153
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart04
+    x: 2198
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart05
+    x: 0
+    y: 2153
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart06
+    x: 628
+    y: 2639
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart07
+    x: 314
+    y: 1667
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart08
+    x: 942
+    y: 695
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart09
+    x: 3140
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart10
+    x: 0
+    y: 209
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart11
+    x: 942
+    y: 2153
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart12
+    x: 1570
+    y: 695
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Heart13
+    x: 314
+    y: 1181
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Joker_Color
+    x: 942
+    y: 209
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Joker_Monochrome
+    x: 942
+    y: 2639
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade01
+    x: 1570
+    y: 1667
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade02
+    x: 942
+    y: 1181
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade03
+    x: 1256
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade04
+    x: 314
+    y: 3125
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade05
+    x: 0
+    y: 1181
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade06
+    x: 628
+    y: 3611
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade07
+    x: 1256
+    y: 1181
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade08
+    x: 628
+    y: 1181
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade09
+    x: 1256
+    y: 1667
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade10
+    x: 2198
+    y: 3125
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade11
+    x: 628
+    y: 3125
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade12
+    x: 628
+    y: 2153
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  - name: Spade13
+    x: 1256
+    y: 2153
+    width: 313
+    height: 485
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 100
+    paddingTop: 13
+    paddingBottom: 14
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
